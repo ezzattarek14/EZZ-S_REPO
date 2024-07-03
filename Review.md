@@ -34,7 +34,7 @@ Well done on this question!
 - **Input Format**: The input should be in degrees as stated in the problem description.
 - **Sin Function Implementation**: You've done well using the pattern, but if the angle exceeds \(2\pi\) (e.g., \(3\pi\)), it should be reduced using the modulo operator. Consider the following adjustment:
   ```python
-  term = ((-1)**i) * ((angle**(2*i+1)) % (2 * math.pi)) / math.factorial(2*i+1)
+  angle = ((float(input("Enter the angle in radians: "))) % 2 * math.pi)
   ```
 
 ### Circular Shift Problem
