@@ -1,0 +1,8 @@
+<launch>
+    <!-- Existing nodes -->
+    <node pkg="my_package" type="encoder_to_odom.py" name="encoder_to_odom" output="screen"/>
+
+    <!-- New node for encoder_ticks_publisher -->
+    <node pkg="my_package" type="encoder_ticks_publisher.py" name="encoder_ticks_publisher" output="screen"/>
+</launch>
+

@@ -1,0 +1,8 @@
+# ROS build directories
+build/
+devel/
+log/
+
+# Python bytecode
+*.pyc
+
